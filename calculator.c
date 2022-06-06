@@ -3,17 +3,17 @@
 #include <string.h>
 #include <math.h>
 
-#argc(Argument count) is int and stores number of command-line arguments passed by user.
-#argv is array of character pointers
+//argc(Argument count) is int and stores number of command-line arguments passed by user.
+//argv is array of character pointers
 
 int main(int argc, char *argv[])
 {
   float num1;
   float num2;
-  char O;                                           #variable O is operator.
+  char O;                                           //variable O is operator.
   float Answer;
 
-  printf("Welcome Simple calculation \n");
+  printf("Welcome  to simple calculator \n\n");
   
   scanf("%f %c %f", &num1, &O, & num2);
 
@@ -35,3 +35,4 @@ int main(int argc, char *argv[])
   
   return 0;
 }
+//B.Sreeteja
